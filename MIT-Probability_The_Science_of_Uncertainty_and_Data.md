@@ -10,7 +10,7 @@
    5. Unit 9: random arrival processes
    6. Unit 10: Markov chains
 
-   ![6700CB27-A431-4780-B10A-941C74D48D34的副本](MIT-Probability: The Science of Uncertainty and Data.assets/6700CB27-A431-4780-B10A-941C74D48D34的副本.png)
+   ![6700CB27-A431-4780-B10A-941C74D48D34的副本](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/6700CB27-A431-4780-B10A-941C74D48D34的副本.png)
 
 [toc]
 
@@ -39,11 +39,11 @@
 
    1. 离散型：
 
-   ![11133400-9954-4FE1-87A3-F7F060BFAE68](MIT-Probability: The Science of Uncertainty and Data.assets/11133400-9954-4FE1-87A3-F7F060BFAE68.png)
+   ![11133400-9954-4FE1-87A3-F7F060BFAE68](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/11133400-9954-4FE1-87A3-F7F060BFAE68.png)
 
    2. 连续型：
 
-   ![F5A263C0-F0B3-413C-9A6B-F7C5D6F6DF84](MIT-Probability: The Science of Uncertainty and Data.assets/F5A263C0-F0B3-413C-9A6B-F7C5D6F6DF84.png)
+   ![F5A263C0-F0B3-413C-9A6B-F7C5D6F6DF84](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/F5A263C0-F0B3-413C-9A6B-F7C5D6F6DF84.png)
 
 ### 1.2. Probability axioms
 
@@ -56,13 +56,13 @@
    3. additivity：可加性，如果事件A和事件B的交集为空集，则$P(A \cup B) = P(A)+P(B)$
    4. infinite additivity：无限可加性/可数可加性(countable additivity)，假设A1、A2、... An是一系列无限(sequence of disjoint)的不相交事件(可数的或区域的，countable/area)，则$P(A1 \cup A2 \cup A3 \cup ...) = P(A1)+P(A2)+P(A3)+...$
 
-   ![87F90406-EEF9-45C8-B920-1B138E251E74](MIT-Probability: The Science of Uncertainty and Data.assets/87F90406-EEF9-45C8-B920-1B138E251E74.png)
+   ![87F90406-EEF9-45C8-B920-1B138E251E74](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/87F90406-EEF9-45C8-B920-1B138E251E74.png)
 
 3. 概率公理延伸的其他属性：
 
-   ![953B4F7F-BAAB-4013-8D2E-69CE5F893A0C](MIT-Probability: The Science of Uncertainty and Data.assets/953B4F7F-BAAB-4013-8D2E-69CE5F893A0C.png)
+   ![953B4F7F-BAAB-4013-8D2E-69CE5F893A0C](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/953B4F7F-BAAB-4013-8D2E-69CE5F893A0C.png)
 
-   ![79FB44D1-87C5-44CF-8E5F-5CC2E22EA173](MIT-Probability: The Science of Uncertainty and Data.assets/79FB44D1-87C5-44CF-8E5F-5CC2E22EA173.png)
+   ![79FB44D1-87C5-44CF-8E5F-5CC2E22EA173](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/79FB44D1-87C5-44CF-8E5F-5CC2E22EA173.png)
 
 ## 2. examples & definition
 
@@ -72,7 +72,7 @@
 
 2. 举个离散但无限的样本空间的例子(discrete but infinite sample space):
 
-   ![8EEF188C-968C-4F1E-8CE5-7063D8B07D72](MIT-Probability: The Science of Uncertainty and Data.assets/8EEF188C-968C-4F1E-8CE5-7063D8B07D72.png)
+   ![8EEF188C-968C-4F1E-8CE5-7063D8B07D72](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/8EEF188C-968C-4F1E-8CE5-7063D8B07D72.png)
 
 ***
 
@@ -81,7 +81,6 @@
   \sum_{0}^{n}a x^{n-1} = a\frac{x^n-1}{x-1} \quad x≠1
   $$
   
-
 * 特别地，当$|x|<1$时，我们可以得到无限项的和：
 
 $lim_{n \rightarrow \infty} x^n=0$,此时：$\sum_{n=0}^{\infty} a x^{n-1} = \frac{a}{1-x}$
@@ -96,7 +95,7 @@ $lim_{n \rightarrow \infty} x^n=0$,此时：$\sum_{n=0}^{\infty} a x^{n-1} = \fr
 
 3. 关于可数可加性的公理：
 
-![0B62E34F-36BF-47C0-9A86-A1CEB40BD794](MIT-Probability: The Science of Uncertainty and Data.assets/0B62E34F-36BF-47C0-9A86-A1CEB40BD794.png)
+![0B62E34F-36BF-47C0-9A86-A1CEB40BD794](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/0B62E34F-36BF-47C0-9A86-A1CEB40BD794.png)
 
 ### 2.2. role of probability
 
@@ -104,7 +103,7 @@ $lim_{n \rightarrow \infty} x^n=0$,此时：$\sum_{n=0}^{\infty} a x^{n-1} = \fr
    1. 信仰的描述(description of beliefs)
    2. 博彩偏好(betting preferences)
 
-![FE39A8B1-1B08-4249-AEF5-4C48FBB8AD67](MIT-Probability: The Science of Uncertainty and Data.assets/FE39A8B1-1B08-4249-AEF5-4C48FBB8AD67.png)
+![FE39A8B1-1B08-4249-AEF5-4C48FBB8AD67](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/FE39A8B1-1B08-4249-AEF5-4C48FBB8AD67.png)
 
 ## 3. Mathematical background
 
@@ -115,7 +114,7 @@ $lim_{n \rightarrow \infty} x^n=0$,此时：$\sum_{n=0}^{\infty} a x^{n-1} = \fr
    1. 有限集合：$S = \{a,b,c,d\}$
    2. 无限集合：$S = \{x \in R: cos(x) > \frac{1}{2}\}$
 
-   ![84F7D127-5362-4E01-A950-D876029350AE](MIT-Probability: The Science of Uncertainty and Data.assets/84F7D127-5362-4E01-A950-D876029350AE.png)
+   ![84F7D127-5362-4E01-A950-D876029350AE](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/84F7D127-5362-4E01-A950-D876029350AE.png)
 
 2. 德摩根定律(De Morgan's laws)：
 
@@ -129,13 +128,13 @@ $$(\cap_n S_n)^c = \cup_n S_n^c$$
 
 2. 序列可能收敛至无穷，或者收敛至某个实数。
 
-![9DD42519-E2B3-48BE-BF3E-9F8B7E823C1B](MIT-Probability: The Science of Uncertainty and Data.assets/9DD42519-E2B3-48BE-BF3E-9F8B7E823C1B.png)
+![9DD42519-E2B3-48BE-BF3E-9F8B7E823C1B](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/9DD42519-E2B3-48BE-BF3E-9F8B7E823C1B.png)
 
 ### 3.3. countable & uncountable sets
 
 1. 集合是可数的是指：集合里每个元素可以有一个对应的正整数，如整数集合、正整数集合、0-1之间的有理数集合(整数和分数)。
 
-![911E8F1F-9C42-489B-B5C6-C74F790C069E](MIT-Probability: The Science of Uncertainty and Data.assets/911E8F1F-9C42-489B-B5C6-C74F790C069E.png)
+![911E8F1F-9C42-489B-B5C6-C74F790C069E](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/911E8F1F-9C42-489B-B5C6-C74F790C069E.png)
 
 # Unit 2: Conditioning and independence
 
@@ -161,18 +160,18 @@ $$
    P(AB) = P(B)P(A|B) = P(A)P(B|A)
    $$
 
-   ![093C1A75-192E-4D37-B564-ECF09A9225F8](MIT-Probability: The Science of Uncertainty and Data.assets/093C1A75-192E-4D37-B564-ECF09A9225F8.png)2. 总概率定理(total probability theorem)：
+   ![093C1A75-192E-4D37-B564-ECF09A9225F8](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/093C1A75-192E-4D37-B564-ECF09A9225F8.png)2. 总概率定理(total probability theorem)：
    $$
    P(B) = P(B \cap A)+P(B \cap A^C) \\= P(A)P(B|A)+ P(A^C)P(B|A^C)
    $$
-   ![20F24BD9-3D1A-47E6-B829-B1C7D7F2D6AA](MIT-Probability: The Science of Uncertainty and Data.assets/20F24BD9-3D1A-47E6-B829-B1C7D7F2D6AA.png)
+   ![20F24BD9-3D1A-47E6-B829-B1C7D7F2D6AA](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/20F24BD9-3D1A-47E6-B829-B1C7D7F2D6AA.png)
 
    3. 贝叶斯定理(Bayes' rule)：
       $$
       P(A_i|B) = \frac{P(A_i)P(B|A_i)}{\sum P(A_i) P(B|A_I)}
       $$
 
-   ![37618F36-8F5C-47C0-B152-33E5EFDC3886](MIT-Probability: The Science of Uncertainty and Data.assets/37618F36-8F5C-47C0-B152-33E5EFDC3886.png)
+   ![37618F36-8F5C-47C0-B152-33E5EFDC3886](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/37618F36-8F5C-47C0-B152-33E5EFDC3886.png)
 
 ## 2. Independence
 
@@ -185,7 +184,7 @@ $$
    P(A \cap B) = P(A)(B|A) = P(A) \cdot P(B)
    $$
 
-![441BF07E-4516-4500-A6C1-6EAB5452AB59](MIT-Probability: The Science of Uncertainty and Data.assets/441BF07E-4516-4500-A6C1-6EAB5452AB59.png)
+![441BF07E-4516-4500-A6C1-6EAB5452AB59](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/441BF07E-4516-4500-A6C1-6EAB5452AB59.png)
 
 ### 2.1. Conditional independence
 
@@ -198,9 +197,9 @@ $$
    P(A \cap B |C) = P(A|C) \cdot P(B|C)
    $$
 
-![78C6BCFE-55AD-4421-843E-EB6ABE479A98](MIT-Probability: The Science of Uncertainty and Data.assets/78C6BCFE-55AD-4421-843E-EB6ABE479A98.png)
+![78C6BCFE-55AD-4421-843E-EB6ABE479A98](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/78C6BCFE-55AD-4421-843E-EB6ABE479A98.png)
 
-![7E31A121-DA25-40C3-9E11-3AB40D522784](MIT-Probability: The Science of Uncertainty and Data.assets/7E31A121-DA25-40C3-9E11-3AB40D522784.png)
+![7E31A121-DA25-40C3-9E11-3AB40D522784](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/7E31A121-DA25-40C3-9E11-3AB40D522784.png)
 
 ### 2.2. Independence of a collection of events
 
@@ -219,13 +218,13 @@ $$
    P(A_2 \cap A_3) =P(A_2) \cdot P(A_3)
    $$
 
-![47F49BCE-F5D4-41CA-9375-E3C55E0CFB4F](MIT-Probability: The Science of Uncertainty and Data.assets/47F49BCE-F5D4-41CA-9375-E3C55E0CFB4F.png)
+![47F49BCE-F5D4-41CA-9375-E3C55E0CFB4F](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/47F49BCE-F5D4-41CA-9375-E3C55E0CFB4F.png)
 
-![5CFE7D8D-0EC1-495D-B4D1-70A52DADA091](MIT-Probability: The Science of Uncertainty and Data.assets/5CFE7D8D-0EC1-495D-B4D1-70A52DADA091.png)
+![5CFE7D8D-0EC1-495D-B4D1-70A52DADA091](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/5CFE7D8D-0EC1-495D-B4D1-70A52DADA091.png)
 
 3. 著名的三道门问题(Monty Hall problem)说明了条件概率的重要性：
 
-   ![C5037B90-9DC4-4882-84D2-20AB7A62AE81](MIT-Probability: The Science of Uncertainty and Data.assets/C5037B90-9DC4-4882-84D2-20AB7A62AE81.png)
+   ![C5037B90-9DC4-4882-84D2-20AB7A62AE81](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/C5037B90-9DC4-4882-84D2-20AB7A62AE81.png)
 
 4. 解决条件概率和独立性的问题可以通过**韦恩图和树状图**简化问题，提高解题清晰度。
 
@@ -269,7 +268,7 @@ $$
    2. 步骤②：选择其他主席团成员，即包含主席在内的所有可能子集，有$2^{n-1}$种。
    3. 步骤③：$n_{总}=n \cdot 2^{n-1}$
 
-![image-20200914153044298](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200914153044298.png)
+![image-20200914153044298](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200914153044298.png)
 
 ### 1.2. Partition & binomial probabilities
 
@@ -301,13 +300,13 @@ $$
 
 # Unit 4: Discrete random variables
 
-![image-20201001105011201](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201001105011201.png)
+![image-20201001105011201](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201001105011201.png)
 
 ## 1. Probability mass functions and expectations
 
 1. 本章介绍随机变量的概念和定义、概率质量函数、经典离散变量概率模型、期望及其属性。
 
-![image-20200924115606809](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924115606809.png)
+![image-20200924115606809](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924115606809.png)
 
 ### 1.1. Random Variables
 
@@ -320,7 +319,7 @@ $$
    2. 一个或多个随机变量的函数也是随机变量，如$X+2$，既可以将2看成一个简单的随机变量，也可以看成X的一个加法函数。
    3. 我们称只有一个实值的随机变量为确定性随机变量(deterministic random variable)，它没有任何随机性，如$X = \{1\}$。
 
-![image-20200924151301191](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924151301191.png)
+![image-20200924151301191](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924151301191.png)
 
 ### 1.2. Probability mass functions
 
@@ -338,7 +337,7 @@ $$
    注：w表示样本空间里的一个样本。
    $$
 
-![image-20200924154552521](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924154552521.png)
+![image-20200924154552521](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924154552521.png)
 
 ### 1.3. Classic Discrete variable
 
@@ -352,7 +351,7 @@ $$
    1. 定义：在区间[a,b]内的任意一个整数都有相同的概率，即其样本空间为$\Omega = \{a,a+1,...,b\}$，r.v.为$X(w) = w$。
    2. PMF：所有的实值出现可能性都为$P=\frac{1}{b-a+1}$。
 
-   ![image-20200924163705994](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924163705994.png)
+   ![image-20200924163705994](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924163705994.png)
 
 3. 二项随机变量(Binomial r.v.)：
 
@@ -363,7 +362,7 @@ $$
       p_X(k)=\binom{n}{k}p^k(1-p)^{n-k} \quad k = \{0,1,...,n\}
       $$
 
-   ![image-20200924165028166](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924165028166.png)
+   ![image-20200924165028166](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924165028166.png)
 
 4. 几何随机变量(Geometric r.v.)：
 
@@ -379,7 +378,7 @@ $$
       P(X≥10)= P(前9次都是失败的) = (1-p)^9
       $$
 
-   ![image-20200924170751230](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924170751230.png)
+   ![image-20200924170751230](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924170751230.png)
 
 ### 1.4. Expectation and Its Properties
 
@@ -410,11 +409,11 @@ $$
    1. 伯努利：$E(Bernoulli) = p$
    2. 离散均匀：$E(Uniform) = \frac{b+a}{2}$
 
-   ![image-20200924183556336](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924183556336.png)
+   ![image-20200924183556336](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924183556336.png)
 
    3. 二项分布：多个独立伯努利实验均值相加可得，$E(binomial) = np$
    
-   ![image-20200928115927034](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928115927034.png)
+   ![image-20200928115927034](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928115927034.png)
    
    4. 几何分布：利用几何分布的无记忆性可以推导出其期望。$E(Geometric) = \frac{1}{p}$
    
@@ -435,7 +434,7 @@ $$
 
    ​		2. 注意：$E[g(X)]≠ g[E(X)]$
 
-   ![image-20200924212348945](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924212348945.png)
+   ![image-20200924212348945](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924212348945.png)
 
    3. 期望的线性(linearity)：
       $$
@@ -448,7 +447,7 @@ $$
 
 本章我们介绍方差、条件概率、联合概率以及推导二项分布的期望值。
 
-![image-20200924214807501](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924214807501.png)
+![image-20200924214807501](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924214807501.png)
 
 ### 2.1. Variance
 
@@ -464,25 +463,25 @@ $$
       Var(X) = E(X^2)-[E(X)]^2
       $$
 
-![image-20200924215333073](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924215333073.png)
+![image-20200924215333073](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924215333073.png)
 
 2. 属性：$Var(aX+b) = a^2 Var(X)$
 
-![image-20200924215829404](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200924215829404.png)
+![image-20200924215829404](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200924215829404.png)
 
 3. 计算经典离散型r.v.的方差：
 
    1. 伯努利：$V(Bernoulli) = p(1-p)$
 
-      ![image-20200928093159650](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928093159650.png)
+      ![image-20200928093159650](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928093159650.png)
 
    2. 离散均匀：$V(Uniform)= \frac{1}{12}(b-a)(b-a+2)$
 
-      ![image-20200928093745259](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928093745259.png)
+      ![image-20200928093745259](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928093745259.png)
 
    3. 几何分布：$V(Geometric) = \frac{1-p}{p^2}$
 
-      ![image-20201001102429436](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201001102429436.png)
+      ![image-20201001102429436](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201001102429436.png)
 
 ### 2.2. Multiple R.V. and Joint PMFs
 
@@ -502,18 +501,18 @@ $$
       $$
       
 
-   ![image-20200928112855092](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928112855092.png)
+   ![image-20200928112855092](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928112855092.png)
 
 2. Function of Multiple r.v.：根据期望函数法则和联合分布，可知当$Z = g(X,Y)$时，则：
    $$
    p_Z(z) = P(g(X,Y)=z)=\sum_{(x,y):g(x,y)=z}p_{X,Y}(x,y)\\
    E[g(X,Y)] = \sum_x \sum_y g(x,y) \cdot p_{X,Y}(x,y)
    $$
-   ![image-20200928115011089](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928115011089.png)
+   ![image-20200928115011089](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928115011089.png)
 
 ## 3.  Conditional PMFs and Independence of r.v.
 
-![image-20200928163659134](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928163659134.png)
+![image-20200928163659134](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928163659134.png)
 
 ### 3.1. Definition of Conditional PMFs
 
@@ -536,7 +535,7 @@ $$
 p_X(x) = \sum_y p_Y(y)\cdot p_{X|Y}(x|y)
 $$
 
-![image-20200928170239227](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928170239227.png)		![image-20200928170525197](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928170525197.png)
+![image-20200928170239227](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928170239227.png)		![image-20200928170525197](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928170525197.png)
 
 ### 3.2. Conditional Expectation
 
@@ -558,7 +557,7 @@ $$
       E(X)= P(A_1)E[X|A_1]+...+P(A_n)E[X|A_n]\\
       =\sum_yP_Y(y)E[X|Y=y]
       $$
-      ![image-20200928173527764](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928173527764.png)
+      ![image-20200928173527764](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928173527764.png)
 
 2. 几何r.v.的无记忆性和期望推导(memorylessness and expectation)：
    1. 无记忆性：即过去的结果不会影响将来的事件，如：前一次抛硬币的结果不会影响本次的结果。用条件PMF解释的话，指在抛硬币中，基于第一次是背面的事件，在抛到正面前的剩余次数还是为几何r.v.，该条件并未能更新我们第k次抛到正面的概率。
@@ -579,9 +578,9 @@ $$
    ---\\
    P_{X|Y}(x|y) = P_X(x) \quad \text{(for all y)}
    $$
-   ![image-20200928175901046](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928175901046.png)
+   ![image-20200928175901046](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928175901046.png)
 
-![image-20200928181358073](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928181358073.png)
+![image-20200928181358073](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928181358073.png)
 
 2. 如果r.v.相互独立，则期望满足：
    $$
@@ -589,17 +588,17 @@ $$
    g(X)和h(Y)也相互独立，则：\\
    E[g(X)h(Y)]= E[g(X)] \cdot E[h(Y)]
    $$
-   ![image-20200928185405983](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928185405983.png)
+   ![image-20200928185405983](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928185405983.png)
 
 3. 如果r.v.相互独立，则方差满足(但反过来，方差满足以下条件，r.v.不一定相互独立)：
    $$
    Var(X+Y) = Var(X)+Var(Y) \quad \text{(X,Y必须相互独立)}
    $$
-   ![image-20200928190649117](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928190649117.png)
+   ![image-20200928190649117](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928190649117.png)
 
    1.  根据这一属性，我们可以推导出来二项分布的方差：$Var(binomial) = np(1-p)$
 
-      ![image-20200928190938760](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200928190938760.png)
+      ![image-20200928190938760](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200928190938760.png)
 
 ### 3.4. Important Inference
 
@@ -607,7 +606,7 @@ $$
    $$
    E[X] = \sum_{k=1}^{\infty}k \cdot p_x(k) = \sum_{k=1}^{\infty} P(X≥k)
    $$
-   ![image-20200929153646560](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200929153646560.png)
+   ![image-20200929153646560](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200929153646560.png)
 
 2. K次几何实验的期望计算(又称优惠券收集问题)：假设优惠券有A、B、C、D、E、F共6种优惠券，为收集全部种类的优惠券，你的期望购买次数为多少呢？
    $$
@@ -617,7 +616,7 @@ $$
    =n \cdot (1+\frac{1}{2}+...\frac{1}{n}) = n \cdot ln(n) + \gamma \cdot n +0.5+ O(1/n)\\
    ≈ n \cdot ln(n)
    $$
-   ![image-20200929163523210](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200929163523210.png)
+   ![image-20200929163523210](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200929163523210.png)
 
 3. 指标变量求解反转数量(number of inversion)：假设有n个人选择n个座位，座位号码为随机变量$X_n$。如果i<j，而第i个人的座位号码$X_i$大于第j个人的座位号码$X_j$，则我们认为发生了反转，如何求反转的期望次数$E[N]$呢？
 
@@ -649,9 +648,9 @@ $$
 
 4. 指标变量求解共同存活组数量(the number of joint alive)：假设有2m个人，分成m个组，一段时间后每个人存活的概率为p(存活概率相互独立)。用随机变量A表示存活的人数，随机变量S表示存活的组数，求任意存活人数下S的期望值$E[S|A=a]$。
 
-   ![image-20200930183030660](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200930183030660.png)
+   ![image-20200930183030660](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200930183030660.png)
 
-   ![image-20200930183142023](MIT-Probability: The Science of Uncertainty and Data.assets/image-20200930183142023.png)
+   ![image-20200930183142023](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20200930183142023.png)
 
 
 
@@ -659,11 +658,11 @@ $$
 
 1. 这个单元，我们将学习连续型随机变量和其概率密度函数，以及期望、方差、累积分布函数等属性。这些和离散型随机变量是类似的，但计算上存在一些小差别。
 
-![image-20201007161847277](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007161847277.png)
+![image-20201007161847277](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007161847277.png)
 
 ## 1. PDFs, CDF,Expectation, Variance and Classic Continuous r.v.
 
-![image-20201007162454640](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007162454640.png)
+![image-20201007162454640](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007162454640.png)
 
 ### 1.1. Probability Density Function
 
@@ -677,7 +676,7 @@ $$
 
    2. 注意：并不是说一个连续型样本空间的函数映射就是连续型r.v.。连续型r.v.还必须要有能描述它的PDF。
 
-   ![image-20201007172301887](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007172301887.png)
+   ![image-20201007172301887](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007172301887.png)
 
 2. PDF的基本属性：
 
@@ -686,7 +685,7 @@ $$
    3. $P(X=a)=0$
    4. $P(a≤x≤b) = P(a<x<b)$
 
-   ![image-20201007172700676](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007172700676.png)
+   ![image-20201007172700676](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007172700676.png)
 
 ### 1.2. Expectation and Variance
 
@@ -699,17 +698,17 @@ $$
 
    2. 期望值位于概率分布的中心，即$\int_{-\infty}^{\mu}x\cdot f_X(x)dx=\frac{1}{2}$，在图形中可以模糊地判断。
 
-      ![image-20201007183154053](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007183154053.png)
+      ![image-20201007183154053](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007183154053.png)
 
    3. 期望的属性：和离散型r.v.一致
 
-      ![image-20201007183653058](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007183653058.png)
+      ![image-20201007183653058](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007183653058.png)
 
 4. 方差：
    $$
    Var(X) = E[(X-\mu)^2] = \int_{-\infty}^{+\infty}(x-\mu)^2 \cdot f_X(x)dx
    $$
-   ![image-20201007183915332](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007183915332.png)
+   ![image-20201007183915332](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007183915332.png)
 
 ### 1.3. Classic Continuous PDF
 
@@ -721,7 +720,7 @@ $$
       3. 方差：$Var(X) = \frac{(b-a)^2}{12}$
    2. 分段常数：每一段的PDF是相同的
 
-   ![image-20201007181328848](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007181328848.png)
+   ![image-20201007181328848](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007181328848.png)
 
 2. 指数连续型r.v.(exponential random variables)：描述了直到事情发生前需要等待的时间。对应的离散型r.v.是几何分布(描述了直到某事成功前需要尝试的次数)。举例：顾客到达的时间、机器故障的时间、灯泡坏掉的时间。
 
@@ -731,11 +730,11 @@ $$
 
    3. 方差：$Var(X) = \frac{1}{\lambda^2}$
 
-      ![image-20201007205102068](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007205102068.png)
+      ![image-20201007205102068](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007205102068.png)
 
    4. 特点：无记忆性，即基于已经过去的时间，事情发生需要等待的时间的概率分布保持不变。比如一个用了t个小时的灯泡，一个没用过的灯泡，它们能持续发亮x时间的概率是一样的，并不会说旧灯泡的概率就更低。类比几何分布，可以认为，每过$\lambda$的时间长度，成功的概率为$\lambda \delta \quad (\delta→0)$。
 
-      ![image-20201008155748197](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201008155748197.png)
+      ![image-20201008155748197](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201008155748197.png)
 
 3. 正态r.v.(normal/Gaussian random variables)：作为概率学中最重要的r.v.，基于中心极限定理(central limit theorem)，它是最常见的随机模型(model for randomness)。
 
@@ -746,9 +745,9 @@ $$
    5. 方差：$Var(X) = \sigma^2$
    6. 计算正态分布的概率：使用标准正态分布CDF表。
 
-   ![image-20201007214512229](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007214512229.png)
+   ![image-20201007214512229](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007214512229.png)
 
-   ![image-20201007215833153](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007215833153.png)
+   ![image-20201007215833153](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007215833153.png)
 
 ### 1.4. Cumulative Distribution Functions
 
@@ -758,18 +757,18 @@ $$
    2. 离散型：$F_X(x)$
    3. 与PDF的关系：$\frac{dF_X(x)}{dx}=f_X(x)$，该点要可导。
 
-   ![image-20201007211742771](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007211742771.png)
+   ![image-20201007211742771](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007211742771.png)
 
 2. 属性：
 
    1. 递增，non-decreasing
    2. x趋向正无穷，CDF趋向于1；x趋向负无穷，CDF趋向于0
 
-   ![image-20201007211643877](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201007211643877.png)
+   ![image-20201007211643877](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201007211643877.png)
 
 ## 2. Conditioning on an event, Multiple r.v.'s and Joint PDFs
 
-![image-20201008151556199](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201008151556199.png)
+![image-20201008151556199](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201008151556199.png)
 
 ### 2.1. Conditional PDFs
 
@@ -787,11 +786,11 @@ $$
    $$
    
 
-   ![image-20201008151925661](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201008151925661.png)
+   ![image-20201008151925661](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201008151925661.png)
 
 2. 条件期望：条件期望也是类似。
 
-   ![image-20201008152502415](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201008152502415.png)
+   ![image-20201008152502415](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201008152502415.png)
 
 3. 总概率和期望定理：
 
@@ -822,7 +821,7 @@ $$
    其CDF可以表示为：\\
    F_X(x) = P(Y)F_{X|Y}(x) + P(Z)F_{X|Z}(x)
    $$
-   ![image-20201008163917486](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201008163917486.png)
+   ![image-20201008163917486](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201008163917486.png)
 
 ### 2.3. Joint PDFs
 
@@ -837,7 +836,7 @@ $$
    2. 注意：与PDF一样，联合PDF提供的是每单位面积的概率密度，而非概率。
    3. 假设area(B)=0，则$P((X,Y) \in B)=0$，也就是说，联合分布是对X和Y的双重积分，需要满足2个维度的积分，只积分一个维度的话，P=0 (Probability is not allowed to be concentrated on a one-dimensional set)。举例：$X=Y$，则所有的点都将落在y-x=0的直线上，而直线构不成面积B，因此，X和Y无法联合连续(X and Y are not jointly continuous)。
 
-   ![image-20201009142048120](MIT-Probability: The Science of Uncertainty and Data.assets/image-20201009142048120.png)
+   ![image-20201009142048120](MIT-Probability_The_Science_of_Uncertainty_and_Data.assets/image-20201009142048120.png)
 
 2. 双重积分的条件解读：假设要计算$0<y<x<1$的概率，已知X和Y满足联合PDF$f_{X,Y}(x,y)$，则计算可以有两种方式：
    1. 基于$y \in [0,1]$，x的取值范围是[1,y]，则：$P(0<y<x<1) = \int _0^1 \int _ y^1 f_{X,Y}(x,y)\, dx\, dy$

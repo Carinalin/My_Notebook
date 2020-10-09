@@ -25,7 +25,7 @@
 
    2. 为pycharm配置conda环境：快捷键【command + ，】打开preferrences为指定project添加python interpreter。
 
-      ![image-20200916165754586](MIT- Machine Learning.assets/image-20200916165754586.png)
+      ![image-20200916165754586](MIT-Machine_Learning.assets/image-20200916165754586.png)
 
 2. numpy的简单介绍：
 
@@ -96,7 +96,7 @@
       3. step into mycode：进入本脚本定义的函数代码执行每一步
       4. step out：跳出函数
 
-   ![image-20200916172005205](MIT- Machine Learning.assets/image-20200916172005205.png)
+   ![image-20200916172005205](MIT-Machine_Learning.assets/image-20200916172005205.png)
 
 3. python的可变参数设置：
 
@@ -128,11 +128,11 @@
 
 3. 机器学习的种类有很多：监督学习、无监督学习、半监督学习、主动学习、转换学习、强化学习等。
 
-   ![image-20200916223833280](MIT- Machine Learning.assets/image-20200916223833280.png)
+   ![image-20200916223833280](MIT-Machine_Learning.assets/image-20200916223833280.png)
 
 4. 监督学习的种类：分类器、回归、结构化预测(用语言描述图片内容等)。
 
-   ![image-20200916224144479](MIT- Machine Learning.assets/image-20200916224144479.png)
+   ![image-20200916224144479](MIT-Machine_Learning.assets/image-20200916224144479.png)
 
 ## 2. Linear Classifier and Perceptron
 
@@ -158,7 +158,7 @@
       1. 任何与法向量点积为0的向量亦平行于该超平面(parallel vector)。
       2. 法向量等于两个不同方向的平行向量的叉积，$\vec{\theta} = \vec{a} * \vec{b}$。
 
-      ![image-20200917144855891](MIT- Machine Learning.assets/image-20200917144855891.png)
+      ![image-20200917144855891](MIT-Machine_Learning.assets/image-20200917144855891.png)
 
    4. 点到超平面的距离s：
 
@@ -169,7 +169,7 @@
       s = \vec{x_0x_1} \cdot \frac{\vec{\theta}}{||\vec{\theta}||} =\frac{(\vec{\theta} \cdot x_0 + \theta_0)}{||\vec{\theta}||}
       $$
 
-      ![image-20200917151311164](MIT- Machine Learning.assets/image-20200917151311164.png)
+      ![image-20200917151311164](MIT-Machine_Learning.assets/image-20200917151311164.png)
 
    5. 点到超平面的映射(Orthogonal Projection)：点$x_0$到超平面的映射等于$\vec{x_0x_1}- s \cdot \frac{\vec{\theta}}{||\vec{\theta}||}$，化简之后可以得到：
       $$
@@ -183,9 +183,9 @@
 
 3. 线性分离(linear separation)的定义：当存在参数向量$\vec{\hat{\theta}}$和偏移参数$\hat{\theta_0}$使得$y^{(i)}(\vec{\hat{\theta}} \cdot x^{(i)} + \hat{\theta_0}) >0$（指二分类，$y^{(i)}=-1或+1$），即训练集所有的数据都分类正确，则我们认为训练集是线性分离的。
 
-   ![image-20200917155803320](MIT- Machine Learning.assets/image-20200917155803320.png)
+   ![image-20200917155803320](MIT-Machine_Learning.assets/image-20200917155803320.png)
 
-   ![image-20200917161322381](MIT- Machine Learning.assets/image-20200917161322381.png)
+   ![image-20200917161322381](MIT-Machine_Learning.assets/image-20200917161322381.png)
 
 4. 感知机算法(perceptron algorithm)：
 
@@ -217,7 +217,7 @@
         ≥ y^{(i)}\cdot(\theta^{(i)}x^{(i)} + \theta_0)
         $$
 
-   ![image-20200923173147795](MIT- Machine Learning.assets/image-20200923173147795.png)
+   ![image-20200923173147795](MIT-Machine_Learning.assets/image-20200923173147795.png)
 
 5. 被动进取感知机算法(Passive-Aggressive (PA) Perceptron algorithm)：
 
@@ -227,7 +227,7 @@
 
 1. 大边界分类器(large margin classifier)：在使用分类器进行分类时，假设分类器①和分类器②都能对训练集进行准确地分类，我们会更倾向于选择离数据点较远的分类器①，因为它更稳健(more robust)。
 
-   ![image-20200917180849632](MIT- Machine Learning.assets/image-20200917180849632.png)
+   ![image-20200917180849632](MIT-Machine_Learning.assets/image-20200917180849632.png)
 
 2. 边际边界(Margin boundary)：为了得到大边界分类器，我们对决策边界(decision boundary)的两边延伸相等的距离，得到正的边际边界(i.e. $\theta x + \theta_0=1$)和负的边际边界(i.e. $\theta x + \theta_0=-1$)。
 
@@ -240,7 +240,7 @@
    3. 从距离公式可知，==$\theta$不仅仅决定着决策边界的方向，它的大小也控制着边际边界。$\theta$变大，边际边界变小==。
    4. 我们优化(optimization)的目标是最大化边际边界$\frac{1}{||\theta||}$。
 
-   ![image-20200917182516018](MIT- Machine Learning.assets/image-20200917182516018.png)
+   ![image-20200917182516018](MIT-Machine_Learning.assets/image-20200917182516018.png)
 
 3. 铰链损失(hinge loss)：
 
@@ -268,7 +268,7 @@
    $$
    
 
-   ![image-20200917190012099](MIT- Machine Learning.assets/image-20200917190012099.png)
+   ![image-20200917190012099](MIT-Machine_Learning.assets/image-20200917190012099.png)
 
 ## 4. Generalization and Optimization
 
@@ -286,7 +286,7 @@
 
    
 
-   ![image-20200922153753074](MIT- Machine Learning.assets/image-20200922153753074.png)
+   ![image-20200922153753074](MIT-Machine_Learning.assets/image-20200922153753074.png)
 
 3. 随机梯度下降：我们本来的目标优化函数是计算平均损失和正则化项之和，但实际操作中，如果每优化一次$\theta$，我们就得遍历计算全部数据，会非常耗费时间，特别是当数据量较大时。
 
@@ -301,7 +301,7 @@
       $$
       
 
-![image-20200922160757842](MIT- Machine Learning.assets/image-20200922160757842.png)
+![image-20200922160757842](MIT-Machine_Learning.assets/image-20200922160757842.png)
 
 4. 比起感知机算法，hinge loss代表的SVM算法的区别有：
    1. 梯度下降算法为避免越过最优点，使用下降的学习率(decreasing learning rate)。
@@ -317,7 +317,7 @@
    y^{(i)}(\theta \cdot x^{(i)} + \theta_0) ≥1, i=1,...,n
    $$
 
-   ![image-20200922163356422](MIT- Machine Learning.assets/image-20200922163356422.png)
+   ![image-20200922163356422](MIT-Machine_Learning.assets/image-20200922163356422.png)
 
-![image-20200922162909483](MIT- Machine Learning.assets/image-20200922162909483.png)
+![image-20200922162909483](MIT-Machine_Learning.assets/image-20200922162909483.png)
 

@@ -43,7 +43,7 @@ m = np.linalg.norm(a)
 ## 4.基向量转换、向量空间和线性独立
 * 基向量的表示：
 
-  ![65573738-A244-401F-A0AF-E3A0B0755C26](IC - Linear Algebra.assets/65573738-A244-401F-A0AF-E3A0B0755C26.png)
+  ![65573738-A244-401F-A0AF-E3A0B0755C26](IC-Linear_Algebra.assets/65573738-A244-401F-A0AF-E3A0B0755C26.png)
 
     * 向量是由基向量（basis vector）表示的有方向有长度的箭头。比如，$\vec{i}$和$\vec{j}$分别表示基向量1和基向量2，则$\vec{a} = \left|        \begin{array}{l}2 \\ 3 \end{array}  \right|$表示$\vec{a} = 2\vec{i}+ 3\vec{j}$。
     * 我们一般默认的二维基向量是以自然单位向量$\left|\begin{array}{l}1 \\ 0 \end{array}  \right|$和$\left|\begin{array}{l}0 \\ 1 \end{array}  \right|$为坐标系表示的向量。
@@ -106,7 +106,7 @@ np.dot(X, Y)
 
 * 高斯消除：高斯消除类似于方程组的解答，对挨个变量进行消除回代，最终得到单位矩阵和各值解。
 
-  ![AF212DC7-A7F5-41AF-A3B4-44B4088724CF](IC - Linear Algebra.assets/AF212DC7-A7F5-41AF-A3B4-44B4088724CF.png)
+  ![AF212DC7-A7F5-41AF-A3B4-44B4088724CF](IC-Linear_Algebra.assets/AF212DC7-A7F5-41AF-A3B4-44B4088724CF.png)
 
 * 利用python计算逆矩阵和求解方程：
 ```
@@ -199,7 +199,7 @@ def dimensions(A) :
     * $(A-\lambda \vec{I})\vec{a} = \vec{0}$ ② # $\vec{0}$表示零向量
     *  $det(A-\lambda \vec{I}) = 0$ ③
     *  根据以上式子可以得到特征值$\lambda$，代入②可以得到全部的特征向量$\vec{a}$
-![17EA58F4-6E51-493A-9118-9AA3D614101C](IC - Linear Algebra.assets/17EA58F4-6E51-493A-9118-9AA3D614101C.png)
+![17EA58F4-6E51-493A-9118-9AA3D614101C](IC-Linear_Algebra.assets/17EA58F4-6E51-493A-9118-9AA3D614101C.png)
 * 特殊的2d特征向量例子：
     * 等比例缩放（ stretch）：对于等比例缩放的线性转换，如$\left|\begin{array}{l}2&0 \\ 0&2\end{array}  \right|$，向量都保持方向不变，因此，所有的向量都是特征向量。
     * 非180度旋转（rotation）：对于非180度旋转的线性转换，如$\left|\begin{array}{l}0&1 \\ -1&0\end{array}  \right|$，向量的方向都改变了，因此，无特征向量。
@@ -223,12 +223,12 @@ eVals, eVecs = np.linalg.eig(M)
         * ④转换为原来的坐标系，则$\vec{T} \vec{I} = \vec{C} \vec{D}\vec{C^{-1}} \vec{I}$，越除掉$\vec{I}$则可以得到最终式子。除了$\vec{I}$之外，其实也适用于空间里的任何向量。
     * 3.$\vec{T^2} = \vec{C}\vec{D}\vec{C^{-1}}\vec{C}\vec{D}\vec{C^{-1}} = \vec{C}\vec{D}\vec{D}\vec{C^{-1}} = \vec{C}\vec{D^2}\vec{C^{-1}}$
     * 4.因此可以推断出： $\vec{T^n} = \vec{C}\vec{D^n}\vec{C^{-1}}$
-![9DCA1BF6-0693-4397-81D7-4F8CD4FC9534](IC - Linear Algebra.assets/9DCA1BF6-0693-4397-81D7-4F8CD4FC9534.png)
+![9DCA1BF6-0693-4397-81D7-4F8CD4FC9534](IC-Linear_Algebra.assets/9DCA1BF6-0693-4397-81D7-4F8CD4FC9534.png)
 
 ## 3.算法介绍：PageRank
 *  这个算法1998年由Google的创始人佩奇提出，用于谷歌搜索对网站进行排序展示。算法的设计原则和基本思想是重要的网站会被重要的网站链接，并根据网站被Pats访问的次数对网站进行排名。这其中就涉及一些重要的概念：
     * **拖拖拉拉的帕特们（Procrastinating Pats）**：比喻用户。假设Pats每次都浏览1个网站，且每隔1分钟，他们就会跟随网站上的1个链接到达另1个网站。一段时间后，链接最多的网站会有更多的Pats访问。从长远来看，每隔1分钟，每离开1个网站，就会有另一个Pat进来，保持每个网站上Pats的总数不变，最终根据在这个过程的最后被Pats访问的次数对网站进行排名。
-    * **链接概率矩阵$\vec{L}$**：由各个网站的链接概率组成，每一列代表某一网站链接到所有网站的概率分布，每一行代表某一网站被链接的概率分布。如下图中，A网站可以链接到B、C、D，而无法连接到A、E、F，则矩阵的第1列为$\vec{L}[:,0] = [0,1/3,1/3,1/3,0,0]$。  ![9E17C80B-BAE0-4B88-8FF8-3C5AF277A700](IC - Linear Algebra.assets/9E17C80B-BAE0-4B88-8FF8-3C5AF277A700.png)
+    * **链接概率矩阵$\vec{L}$**：由各个网站的链接概率组成，每一列代表某一网站链接到所有网站的概率分布，每一行代表某一网站被链接的概率分布。如下图中，A网站可以链接到B、C、D，而无法连接到A、E、F，则矩阵的第1列为$\vec{L}[:,0] = [0,1/3,1/3,1/3,0,0]$。  ![9E17C80B-BAE0-4B88-8FF8-3C5AF277A700](IC-Linear_Algebra.assets/9E17C80B-BAE0-4B88-8FF8-3C5AF277A700.png)
     * **排名向量$\vec{r}$**：即各网站的排名，满足$\vec{r^{i+1}} = \vec{L} \vec{r^{i}}$。当$\vec{r^{i+1}} = \vec{r^{i}}$时，得到最终网站排名。此时，$\vec{r_{final}}$为矩阵$\vec{L}$的特征向量，且特征值等于1。
     * **阻尼系数d（damping parameter）：Pats不是100%会跟随网站上的链接点击下一个网站，而可能随机重新点击一个网站。因此，设置跟随链接点击的概率为d，则随机重新点击的概率为1-d。因此，矩阵L可以被调整成$\vec{M} = d\vec{L} + \frac{1-d}{n}\vec{J}$，其中J是一个nxn且元素均为1的矩阵。
     
@@ -280,7 +280,7 @@ def pageRank(linkMatrix, d) :
 # 4.其他知识
 ## 4.1.哈达玛积
 * 哈达玛积（Hadamard product）又称为基本积。$A=(a_{ij})$和$B=(b_{ij})$是两个同阶矩阵，若$c_{ij}=a_{ij} x b_{ij}$,则称矩阵C=(cij)为A和B的哈达玛积。
-![51BFCD3C-3820-4BBB-9A28-582A750E5671](IC - Linear Algebra.assets/51BFCD3C-3820-4BBB-9A28-582A750E5671.png)
+![51BFCD3C-3820-4BBB-9A28-582A750E5671](IC-Linear_Algebra.assets/51BFCD3C-3820-4BBB-9A28-582A750E5671.png)
 ```
 import numpy as np
 
